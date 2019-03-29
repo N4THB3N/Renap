@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=deviche-width, initial-scale=1">
+    <link href="/html5_css3/bt/css/bootstrap.css" rel="stylesheet" media="screen">
+    <title>HTML5 y CSS3</title>
+  </head>
+
+  <body background="\html5_css3\images\huts.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="/html5_css3/css/ht.css">
+
+    <div id="menu"></div>
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="javascript:ventana('a.html')">Etiqueta A</a>
+                <a href="javascript:ventana('info.html')">Etiqueta B</a>
+                <a href="javascript:ventana('font.html')">Etiqueta Font</a>
+                <a href="javascript:ventana('basefont.html')">Etiqueta Basefont</a>
+                <a href="javascript:ventana('blockquote.html')">Etiqueta blockquote</a>
+                <a href="javascript:ventana('button.html')">Etiqueta Button</a>
+                <a href="javascript:ventana('caption.html')">Etiqueta caption</a>
+                <a href="javascript:ventana('body.html')">Etiqueta body</a>
+                <a href="javascript:ventana('ht.html')">Etiquetas h</a>
+                <a href="javascript:ventana('div.html')">Etiqueta div</a>
+                <a href="javascript:ventana('form.html')">Etiqueta form y fieldset</a>
+                <a href="javascript:ventana('input.html')">Etiqueta input</a>
+                <a href="javascript:ventana('frame.html')">Etiqueta frame y frameset</a>
+                <a href="javascript:ventana('iframe.html')">Etiqueta iFrame</a>
+                <a href="javascript:ventana('img.html')">Etiqueta img</a>
+                <a href="javascript:ventana('map.html')">Etiqueta map</a>
+                <a href="javascript:ventana('op.html')">Etiqueta select y optgroup</a>
+                <a href="javascript:ventana('style.html')">Etiqueta style</a>
+                <a href="javascript:ventana('sub.html')">Etiqueta sub</a>
+              </div>
+
+                <div class="container-fluid opaco">
+                    <h1 class="principio"><center>Empezando con HTML5</center></h1>
+                    <p style="margin: 20px; font-size:22">
+                      HTML5 es la nueva version del lenguaje de etiquetas, esta version es mas
+                      optima que las anteriores. En general nos ayuda para poder interactuar
+                      con navegadores web haciendo paginas con las que puedan interactuar todo
+                      tipo de personas.
+                    </p>
+                </div>
+
+                <div class="container text-center menu">
+                  <input class="btn btn-warning" type="button" onclick="openNav()" id="boton" value="Menu">
+                </div>
+
+
+    <script src="/html5_css3/bt/js/jquery-3.3.1.js"></script>
+    <script src="/html5_css3/bt/js/bootstrap.js"></script>
+    <script src="/html5_css3/js/barra.js"></script>
+
+    <script language=javascript>
+      function ventana (url){window.open(url, "Etiquetas html", "width=500, height=500")}
+      function openNav() {document.getElementById("mySidenav").style.width = "250px";}
+      function closeNav() {document.getElementById("mySidenav").style.width = "0";}
+    </script>
+
+  </body>
+</html>

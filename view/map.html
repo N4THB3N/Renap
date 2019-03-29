@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Etiqueta map</title>
+</head>
+
+<body>
+  <font style="font-family:Calibri">
+    <h1 style="background-color:#CB4335; color:#FBFCFC"><center>Etiqueta map</center></h1>
+
+      <p>La etiqueta map permite hacer un mapa desde una imagen. Es decir, una imagen pueden
+        contener dentro de ella referencias a diferentes paginas, y al teclear en ciertas partes
+        de la imagen, cada parte nos lleva a una pagina distinta.
+      </p>
+
+      <h3>Codigo</h3>
+      <textarea cols="60" rows="6" readonly>
+        <img src="algo.png" width="100" height="100" usemap="mapa">
+
+        <map name="mapa">
+          <area href="https://www.ferrari.com/es-CL">
+        </map>
+      </textarea>
+
+      <img src="/html5_css3/images/algo.png" width="100" height="100" usemap="mapa">
+
+      <map name="mapa">
+        <area shape="circle" coords="50,51,52,53,54,55" href="https://www.ferrari.com/es-CL">
+      </map>
+  </font>
+</body>
+</html>

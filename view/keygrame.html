@@ -1,0 +1,28 @@
+
+            <img class="pacman"src="pacman.gif" width="50" height="50">
+            <img class="phantom" src="phan.gif" width="50" height="50">
+            <img class="blink" src="blinky.gif" width="50" height="50">
+
+<style type="text/css">
+  .pacman{position: relative;-webkit-animation: pacman 4s alternate infinite;}
+  @-webkit-keyframes pacman{
+    0%{left: 30; top: 90;}
+    25%{top: 90; left: 60;}
+    50%{left: 60; top: 60;}
+    75%{top: 60; left: 90;}
+    100%{left: 90; top: 90;}}
+  .phantom{position: relative;-webkit-animation: movi 6s alternate infinite;}
+  @-webkit-keyframes movi{
+    0%{left: 30; top: 60;}
+    25%{top: 60; left: 60;}
+    50%{left: 60; top: 90;}
+    75%{top: 90; left: 90;}
+    100%{left: 90; top: 60;}}
+  .blink{position: relative;-webkit-animation: ghost 8s alternate infinite;}
+  @-webkit-keyframes ghost {
+    0%{left: 30; top: 90;}
+    25%{top: 90; left: 60;}
+    50%{left: 60; top: 60;}
+    75%{top: 60; left: 90;}
+    100%{left: 90; top: 90;}}
+</style>

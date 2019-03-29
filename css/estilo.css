@@ -1,0 +1,39 @@
+#circulo{background-color: #1F618D; width: 100px;height: 100px; position: relative;}
+#circulo:hover{border-radius: 50%; background-color:#5DADE2; transition: all 5s ease;}
+#cuadrado{background-color: #F0B27A; width: 100px;height: 100px; position: relative;;}
+#cuadrado:hover{transform: rotate(45deg);background-color: #F5B7B1;transition: all 3s ease;}
+#hoja{width: 100px;height: 100px;background-color: #AED6F1; position: relative;;}
+#hoja:hover{width: 125px;height: 100px;border-radius: 0 50%;transition: all 4s ease;}
+#semi-circulo{width: 100px;height: 100px;background-color: #FADBD8; position: relative;}
+#semi-circulo:hover{width: 100px;height: 50px;border-radius: 100px 100px 0 0;transition: all 5s ease-in-out;}
+#os{width: 100px;height: 100px;background-color: #EBDEF0; position: relative;}
+#os:hover{width: 151px;height: 100px;transform: skew(25deg);transition: all 4s ease;}
+#colocar:hover{
+          background-color: #1E8449;
+          border-radius: 25px;
+          border-color: #21618C;
+          border-style: solid;
+          transition: 0.5s ease;}
+#estilo:hover{
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: #154360;
+  transition: 0.5s ease;
+  border-style: solid;}
+#b:hover{
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: #154360;
+  border-style: dashed;
+  transition: 0.5s ease;}
+#c:hover{border-radius: 10px;border:10px double #2E86C1;transition: 0.5s ease;}
+body{background-attachment: fixed;}
+#principal{position: relative; top: 450; background-color: #16A085; color: #fff;}
+#sforzo{background-color: transparent;}
+#chulo{color: #fff; position: relative; top:225; text-shadow: 5px 5px 2px #1C2833;}
+.style1{border-color: #F4D03F; position: relative; top: 225;}
+#mejor{position: relative; top: 225; color: #fff;}
+.otro{position: relative; top: 450; padding: 75; position: relative; top: 410; background-color: #fff; color: #7F8C8D;}
+.acabar{position: relative; top: 410; background-color:#fff; color: #7F8C8D;padding: 75;}
+.dif{position: relative; top: 330; background-color: #fff;}
+.border{display: inline-block;width: 70px; height: 70px; margin: 6px;}

@@ -1,0 +1,18 @@
+#d1{width: 20%; float: left;}
+#d2{width:80%; float: right; background-color: #F2F3F4; padding: 12px 12px 12px 12px;}
+#d3{width: 80%; float: right;}
+.menu{
+  height: 100%;
+  position: fixed;
+  background-color: #1A5276;
+  color: #fff;
+  width: 20%;
+  padding-top: 60px;
+}.menu a{
+  display: block;
+  color: #fff;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+}.menu a:hover{
+  color: #ECF0F1;
+}

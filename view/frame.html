@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>
+    Etiqueta frame y frameset
+    </title>
+  </head>
+
+  <body>
+    <font style="font-family:Calibri">
+      <h1 style="background-color:#CB4335; color:#FDFEFE"><center>Etiquetas frame y frameset</center></h1>
+
+      <p>La etiqueta frame sirve para que podamos abrir una ventana en la ventana en la que ya estamos navegando.
+          Esta etiqueta nos permite tener dentro de una ventana hasta mas de dos paginas.
+      </p>
+
+      <textarea readonly cols="60" rows="6">
+        <html>
+          <head>
+            <title>Ejemplo de frame.</title>
+          </head>
+
+              <frameset cols="150,100%">
+                <frame name="indice" src="index.html">
+                <frame name="principal" src="etiquetas.html">
+
+              <noframes>
+                <p>Si tu navegador no acepta frames, estarás viendo este mensaje. ¡Lo sentimos!</p>
+              </noframes>
+
+              </frameset>
+        </html>
+      </textarea>
+
+      <h3>En accion</h3>
+      <button onclick="ventana('nose.html')">
+        Cliquea aqui para ver el ejemplo
+      </button>
+
+      <script language=javascript>
+      function ventana (url){
+        window.open(url, "Etiquetas html", "width=500, height=500")
+      }
+      </script>
+      </html>
+    </font>
+  </body>
+</html>

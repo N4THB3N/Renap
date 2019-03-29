@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/html5_css3/bt/css/bootstrap.css" rel="stylesheet" media="screen">
+    <script type="text/javascript">
+      function menu(pagina){
+        $("#cuerpo").load(pagina);
+      }
+    </script>
+    <title>
+      HTML5 Y CSS3
+    </title>
+  </head>
+
+    <body>
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <a class="navbar-brand" href="/html5_css3">Pencil & Paper</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/html5_css3">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="menu('/html5_css3/view/tags.html')">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="menu('/html5_css3/view/cascade.html')">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="menu('/html5_css3/view/boots.html')">Frameworks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="menu('/html5_css3/view/js.html')">Javascript</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            We got it. Its fine...
+          </span>
+        </div>
+      </nav>
+
+    <div id="cuerpo"></div>
+
+      <script src="/html5_css3/bt/js/jquery-3.3.1.js"></script>
+      <script src="/html5_css3/bt/js/bootstrap.js"></script>
+      <script src="/html5_css3/js/cuerpo.js"></script>
+  </body>
+</html>
